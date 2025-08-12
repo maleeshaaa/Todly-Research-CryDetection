@@ -1,0 +1,22 @@
+.git
+.gitignore
+
+# Python virtual environment
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore entire dataset and audio directories if they are not essential
+baby_cry_dataset/
+test_audio/
+
+# Ignore large temporary files
+*.log
+*.tmp
+
+# Ignored by the build system
+/setup.cfg
